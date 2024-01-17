@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  background-image: url('/задний фон.jpg'); /* Путь к вашему изображению */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  margin: 0;
+  font-size: 3em;
+  color: #fff;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.genre-container {
+  text-align: left;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+
+.genres-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.genre-button {
+  margin: 5px;
+  padding: 5px;
+}
